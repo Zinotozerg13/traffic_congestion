@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Django
+db.sqlite3
+
+# Environment variables
+.env
+
+# Node
+node_modules/
+
+# Large datasets
+*.csv
+*.xlsx
+
+# Temporary files
+*.log
+# ML models
+*.pkl
+# Python virtual environment
+env/
+backend/env/
+
+# Jupyter
+.ipynb_checkpoints/
+
