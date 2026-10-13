@@ -13,36 +13,7 @@ The main objectives of this research are:
  Predict the level of traffic congestion using machine learning. Estimate the expected travel time for a given journey. Analyze the relationship between traffic congestion and different environmental and temporal factors. Develop a system that can provide predictions through a web-based interface. Explore the potential of machine learning for intelligent traffic management. 
 
 
-##  System Architecture
 
-The system consists of three major components:
-
-text
-                User
-                 │
-                 ▼
-        ┌─────────────────┐
-        │ React Frontend  │
-        └────────┬────────┘
-                 │
-                 ▼
-        ┌─────────────────┐
-        │ Django Backend  │
-        └────────┬────────┘
-                 │
-          ┌──────┴──────┐
-          ▼             ▼
- ┌────────────────┐ ┌────────────────┐
- │ Congestion ML  │ │ Travel Time ML │
- │     Model      │ │     Model      │
- └────────────────┘ └────────────────┘
-          │             │
-          └──────┬──────┘
-                 ▼
-             Prediction
-
-
----
 
 ##  Machine Learning
 
