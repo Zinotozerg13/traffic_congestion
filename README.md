@@ -59,38 +59,6 @@ Additional temporal features can be extracted from the date, such as:
  Git GitHub Visual Studio Code 
 ---
 
-##  Project Structure
-
-text
-traffic_congestion/
-│
-├── backend/
-│   ├── ml/
-│   │   ├── analysis2.ipynb
-│   │   ├── eda/
-│   │   └── mlfinal/
-│   │
-│   ├── traffic_congestion_project/
-│   │   ├── distance/
-│   │   ├── predictions/
-│   │   ├── users/
-│   │   ├── manage.py
-│   │   └── traffic_congestion_project/
-│   │
-│   └── env/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── ...
-│
-├── .gitignore
-└── README.md
-
-
-> The `env/` directory and other generated files are excluded from version control.
-
 
 
 ##  Installation
